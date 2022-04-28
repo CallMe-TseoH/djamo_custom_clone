@@ -6,7 +6,9 @@ class AppRoutes{
   static List<GetPage> get getAppRoutes{
     return <GetPage>[
       GetPage(name: RMI.security.name, page: ()=>RMI.security.page, binding:RMI.security.binding),
-      // GetPage(name: RMI.about.name, page: ()=>RMI.about.page, binding:RMI.about.binding),
+      GetPage(name: RMI.navigator.name, page: ()=>RMI.navigator.page, binding:RMI.navigator.binding),
+      GetPage(name: RMI.transactionDetail.name, page: ()=>RMI.transactionDetail.page, binding:RMI.transactionDetail.binding),
+      GetPage(name: RMI.about.name, page: ()=>RMI.about.page, binding:RMI.about.binding),
     ];
   }
 }

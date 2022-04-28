@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -15,9 +16,10 @@ class App extends StatelessWidget {
       designSize: const Size(414, 896),
       minTextAdapt: true,
       builder:  (_)=> GetMaterialApp(
-        title: "Orange Money Custom Clone",
+        title: "Djamo Custom Clone",
         theme: ThemeData(
           visualDensity: VisualDensity.adaptivePlatformDensity,
+          fontFamily: GoogleFonts.jost().fontFamily
         ),
         debugShowCheckedModeBanner: false,
         translations: AppLocalisation(),

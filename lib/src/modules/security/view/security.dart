@@ -1,3 +1,4 @@
+import 'package:djamo_custom_clone/src/modules/security/view/pages/security_page.dart';
 import 'package:flutter/material.dart';
 
 class Security extends StatelessWidget {
@@ -7,6 +8,6 @@ class Security extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold(body: SecurityPage(),);
   }
 }

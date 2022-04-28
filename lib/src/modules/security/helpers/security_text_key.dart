@@ -5,4 +5,5 @@ class SecurityTextKey{
   static const hello = _securityKey+"hello";
   static const forgotPassword = _securityKey+"forgot.password";
   static const composeSecretCode = _securityKey+"compose.secret.code";
+  static const invalidCode = _securityKey+"invalid.code";
 }
